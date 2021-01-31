@@ -13,10 +13,10 @@ config :cookbook,
 # Configures the endpoint
 config :cookbook, CookbookWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "zoOjkcQVtBM7HkjqD0CbAkvuSg4Kf1zcUaRTf5a0ugabRT1HeDZjNYc2JddJHmLX",
+  secret_key_base: "pbBMugVYTK+xT94Ms1i1fzRuwKuX7WfP0m+CACpQklda8HtGGnOL/A1PjcTCLVr1",
   render_errors: [view: CookbookWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Cookbook.PubSub,
-  live_view: [signing_salt: "qP/W8ipK"]
+  live_view: [signing_salt: "T8nxRDMQ"]
 
 # Configures Elixir's Logger
 config :logger, :console,

@@ -7,7 +7,7 @@ defmodule CookbookWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_cookbook_key",
-    signing_salt: "kbsT+W1Y"
+    signing_salt: "1TPklEMX"
   ]
 
   socket "/socket", CookbookWeb.UserSocket,
