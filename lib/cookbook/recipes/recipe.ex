@@ -1,10 +1,15 @@
 defmodule Cookbook.Recipes.Recipe do
   use Ecto.Schema
+
   import Ecto.Changeset
+
+  alias Cookbook.Recipes.Ingredient
 
   schema "recipes" do
     field :description, :string
     field :title, :string
+
+    has_many :ingredients, Ingredient
 
     timestamps()
   end
